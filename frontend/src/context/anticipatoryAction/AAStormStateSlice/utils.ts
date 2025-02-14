@@ -1,3 +1,5 @@
+import { StormDataResponseBody } from 'prism-common/dist/types/anticipatory-action-storm/reportResponse';
+import { WindState } from 'prism-common/dist/types/anticipatory-action-storm/windState';
 import {
   AACategory,
   AACategoryDataToLandfallMap,
@@ -8,7 +10,6 @@ import {
   MergedFeatures,
   ResultType,
 } from './parsedStormDataTypes';
-import { StormDataResponseBody, WindState } from './rawStormDataTypes';
 
 const districtNameMapping: { [key: string]: string } = {
   Maganja_Da_Costa: 'Maganja Da Costa',
